@@ -1,0 +1,70 @@
+// 声明内容的字符编码
+@charset 'utf-8';
+@import './variables.less';
+
+.personal-box{
+  background-color: #F4F4F4;
+      .header-box{
+            height: 170px;
+            background-color: #59CAFC;
+            .am-flexbox{
+              color: @white;
+              height: 90px;
+              padding-top: 10px;
+              img{
+                height: 100px;
+                width: 100px;
+                flex: 1;
+              }
+              .login{
+                flex:2;
+                text-align:center;
+                h2,p{
+                  margin:0px 0px 15px 0px;
+                }
+              }
+              .set{
+                flex:1;
+                text-align:center;
+                i{
+                  font-size: 26px;
+                }
+              }
+              .pre,.int,.money{
+                text-align: center;
+                p{
+                  margin: 10px 0;
+                }
+              }
+              .pre,.int{
+                border-left: 2px solid @white;
+              }
+            }
+    }
+
+  .list1,.list2,.list3,.list4{
+       background-color: @white;
+       margin-top: 10px;
+    .am-flexbox{
+      height: 40px;
+      .money{
+        text-align: center;
+      }
+    }
+  }
+  .list1{
+    .two{
+      border-top: 1px solid #cccccc;
+      border-bottom: 1px solid #ccc;
+    }
+  }
+  .list2,.list3,.list4{
+    .one {
+      border-top: 1px solid #cccccc;
+
+    }
+  }
+
+
+
+}

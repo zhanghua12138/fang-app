@@ -1,0 +1,72 @@
+
+@import './variables.less';
+
+
+.list-box{
+  background-color: @white;
+  .am-list-header{
+    border-left: 4px solid green;
+    border-bottom: 2px solid #cccccc;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .left-img{
+    img{
+      width: 100%;
+    }
+    flex:1;
+    padding:10px;
+  }
+  // 列表右侧
+  .right-content{
+    flex:2;
+    position: relative;
+
+    .title{
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .address,.areasize{
+      font-size: 14px;
+      color :#666;
+
+    }
+
+    .green{
+      color:green;
+      background-color: lighten(green,60%);
+      border-radius: 7px;
+      padding :0px 5px;
+    }
+    .orange{
+      color:orange;
+      background-color: lighten(orange,40%);
+      border-radius: 7px;
+      padding :0px 5px;
+    }
+    .skyblue{
+      color:skyblue;
+      background-color: lighten(skyblue,20%);
+      border-radius: 7px;
+      padding :0px 5px;
+    }
+    .gray{
+      color : #666
+    }
+    span{
+      margin-right: 5px;
+    }
+
+    .price{
+      color :#f00;
+      font-size: 19px;
+      font-weight: 600;
+
+      position: absolute;
+      top:25px;
+      right : 10px;
+    }
+
+  }
+}

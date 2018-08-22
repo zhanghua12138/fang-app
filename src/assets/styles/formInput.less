@@ -1,0 +1,30 @@
+@import './variables.less';
+.form-group{
+  display: flex;
+  height:40px;
+  width: 100%;
+  border : 1px solid @white;
+  border-radius: 7px;
+  margin-bottom: 15px;
+  // 左侧图标
+  .left-icon{
+    display: inline-block;
+    width: 12%;
+
+    height: 40px;
+    line-height: 40px;
+    font-size: 22px;
+    color: @white;
+  }
+  // 右侧文本
+  .form-input{
+    display: inline-block;
+    width: 88%;
+    height: 40px;
+    background-color:transparent;
+    border : none;
+    outline: none;
+
+    color : @white;
+  }
+}
